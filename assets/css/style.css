@@ -251,6 +251,13 @@ li.clock1::before {
   color: #575c60;
   font-weight: 700;
 }
+
+.sendtext p {
+  font-weight: 900;
+  color: #393939;
+  font-size: 24px;
+  text-transform: capitalize;
+}
 .sendbox a:hover {
   background: #cee4f2;
 }
@@ -689,7 +696,7 @@ li.clock1::before {
 }
 
 .main-menu ul li a:hover {
-  color: #e30045;
+  color: #2390DC;
 }
 
 
@@ -894,7 +901,7 @@ li.clock1::before {
 .log-into span a {
   font-size: 16px;
   font-weight: 700;
-  color: #e30045;
+  color: #2390DC;
 }
 
 .try-thisfield a.logs1 {
@@ -1070,8 +1077,6 @@ li.clock1::before {
   display: block;
   margin-left: 0 !important;
 }
-
-
 .sidemenuw ul li a {
   background: none;
   color: #fff;
@@ -1086,8 +1091,6 @@ li.clock1::before {
   padding: 6px 0px;
 }
 
-
-
 .sidemenuw ul li a:hover {
   background: transparent;
   color: #E30048;
@@ -1100,21 +1103,6 @@ li.clock1::before {
   top: 11px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .menu-icon {
   background: #333;
   padding: 3px 12px;
@@ -1124,34 +1112,33 @@ li.clock1::before {
   color: #f5f5f5;
 }
 
+.main-menu li a {
+  color: #858585 !important;
+  position: relative;
+  padding: 29px 0px;
+}
 
+.main-menu li a:hover::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 5px;
+  background: #2390DC;
+  opacity: 1;
+  visibility: visible;
+  width: 100%;
+}
 
+.main-menu li a::after {
+  opacity: 0;
+  transition: .2s;
+  visibility: hidden;
+  width: 0;
+}
 
-
-
-/*sidemenu-css*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Header bar section  END */
-
-
-
-
-
-
-
+.heroarea {
+  background-image: url(../img/ff.png);
+  background-size: cover;
+  background-position: center center;
+}

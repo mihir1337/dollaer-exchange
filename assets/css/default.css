@@ -541,3 +541,10 @@
 [data-overlay="9"]::before {
 	opacity: 0.9;
 }
+
+.bg_img {
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+}
