@@ -14,7 +14,7 @@
     display: block;
     margin: 0 auto 15px;
 }
-a:focus { outline: 0 solid }
+a:focus, input:focus { outline: 0 solid }
 img {
     max-width: 100%;
     height: auto;
@@ -1150,4 +1150,8 @@ li.clock1::before {
 
 .securityicon img:hover {
   transform: scale(1.2);
+}
+
+.login-us input:focus {
+  outline: 1px solid #0076C9;
 }
