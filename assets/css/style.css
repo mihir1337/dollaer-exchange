@@ -1142,3 +1142,12 @@ li.clock1::before {
   background-size: cover;
   background-position: center center;
 }
+
+.securityicon img {
+  transform: scale(1);
+  transition: .2s;
+}
+
+.securityicon img:hover {
+  transform: scale(1.2);
+}
